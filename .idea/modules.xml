@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MCommande/MCommande/MCommande.iml" filepath="$PROJECT_DIR$/MCommande/MCommande/MCommande.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MLivraison/MLivraison/MLivraison.iml" filepath="$PROJECT_DIR$/MLivraison/MLivraison/MLivraison.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MPaiement/MPaiement/MPaiement.iml" filepath="$PROJECT_DIR$/MPaiement/MPaiement/MPaiement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MProduit/MProduit/MProduit.iml" filepath="$PROJECT_DIR$/MProduit/MProduit/MProduit.iml" />
+    </modules>
+  </component>
+</project>

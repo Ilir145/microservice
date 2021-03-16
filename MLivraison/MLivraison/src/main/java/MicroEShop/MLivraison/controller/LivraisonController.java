@@ -32,8 +32,8 @@ public class LivraisonController {
     }
 
     @PostMapping
-    public void insertLivraison(@RequestBody Livraison livraison){
-        this.livraisonService.insert(livraison);
+    public void insertLivraison(@RequestBody Livraison livraison) throws Exception {
+        this.livraisonService.expedieCommande(livraison);
     }
 
 

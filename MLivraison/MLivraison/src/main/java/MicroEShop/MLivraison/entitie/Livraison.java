@@ -27,6 +27,7 @@ public class Livraison {
 
     Instant dateLivraison;
 
+    @Enumerated(EnumType.STRING)
     SocieteLivraison societeLivraison;
 
     Integer prix;

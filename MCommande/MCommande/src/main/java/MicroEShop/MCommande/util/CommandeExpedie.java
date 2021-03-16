@@ -12,5 +12,6 @@ import java.io.Serializable;
 public class CommandeExpedie implements Serializable {
 
     int  commandeId;
-    SocieteLivraison societeLivraison;
+
+    String societeLivraison;
 }

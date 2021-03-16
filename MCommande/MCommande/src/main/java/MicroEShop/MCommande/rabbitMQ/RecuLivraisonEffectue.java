@@ -17,6 +17,7 @@ public class RecuLivraisonEffectue {
 
     @RabbitHandler
     public void recois(String in) throws CommandeNotFounException {
+        System.out.println(in);
         Gson gson = new Gson();
         CommandeExpedie commandeExpedie = gson.fromJson(in,CommandeExpedie.class);
         commandeService.updateSocieteLivraison(commandeExpedie.getCommandeId(),commandeExpedie.getSocieteLivraison());

@@ -62,7 +62,7 @@ public class LivraisonService {
         if(nouvelleLivraison == null) throw new Exception("Le paiement est impossible");
 
 
-        envoisLivraisonEffectue.envoyer(nouvelleLivraison.getCommandeId());
+        envoisLivraisonEffectue.envoyer(nouvelleLivraison.getCommandeId(),nouvelleLivraison.getSocieteLivraison());
 
         return mapper.toDTO(nouvelleLivraison);
     }

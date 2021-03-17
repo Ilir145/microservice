@@ -10,7 +10,7 @@ import java.util.Set;
 
 @RestController
 @RequestMapping(path = "/products")
-@CrossOrigin
+//@CrossOrigin
 public class ProductController {
 
     private final ProductService service;

@@ -8,16 +8,22 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="MCommande" />
-        <module name="MProduit" />
         <module name="MPaiement" />
         <module name="MLivraison" />
+        <module name="api-gateway" />
+        <module name="MProduit" />
+        <module name="eureka-server" />
+        <module name="MUser" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="api-gateway" target="11" />
+      <module name="eureka-server" target="11" />
       <module name="MCommande" target="11" />
       <module name="MLivraison" target="11" />
       <module name="MPaiement" target="11" />
       <module name="MProduit" target="11" />
+      <module name="MUser" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -26,6 +32,9 @@
       <module name="MLivraison" options="-parameters" />
       <module name="MPaiement" options="-parameters" />
       <module name="MProduit" options="-parameters" />
+      <module name="MUser" options="-parameters" />
+      <module name="api-gateway" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
     </option>
   </component>
 </project>

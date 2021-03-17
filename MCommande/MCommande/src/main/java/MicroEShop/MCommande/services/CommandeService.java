@@ -57,7 +57,7 @@ public class CommandeService {
         repository.save(commande.get());
     }
 
-    public void updateSocieteLivraison(int commandeId, SocieteLivraison societeLivraison) throws CommandeNotFounException {
+    public void updateSocieteLivraison(int commandeId, String societeLivraison) throws CommandeNotFounException {
         Optional<Commande> commande = repository.findById(commandeId);
 
         if(commande.isEmpty()) throw new CommandeNotFounException("La commande + " + commandeId+ " n'a pas ete trouve");

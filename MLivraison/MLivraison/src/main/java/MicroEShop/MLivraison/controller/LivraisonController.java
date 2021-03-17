@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping(path = "/livraisons")
-@CrossOrigin
+//@CrossOrigin
 public class LivraisonController {
 
     private  final LivraisonService livraisonService;

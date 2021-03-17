@@ -26,6 +26,6 @@ public class CommandeDTO {
 
     Boolean commandeEstPaye;
 
-    SocieteLivraison societeLivraison;
+    String societeLivraison;
 
 }

@@ -29,6 +29,7 @@ public class Commande {
 
     Boolean commandeEstPaye;
 
-    SocieteLivraison societeLivraison;
+
+    String societeLivraison;
 
 }

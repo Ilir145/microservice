@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping(path = "/paiements")
-@CrossOrigin
+//@CrossOrigin
 public class PaiementController {
 
     private final PaiementService service;

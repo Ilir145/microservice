@@ -6,6 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/MLivraison/MLivraison/MLivraison.iml" filepath="$PROJECT_DIR$/MLivraison/MLivraison/MLivraison.iml" />
       <module fileurl="file://$PROJECT_DIR$/MPaiement/MPaiement/MPaiement.iml" filepath="$PROJECT_DIR$/MPaiement/MPaiement/MPaiement.iml" />
       <module fileurl="file://$PROJECT_DIR$/MProduit/MProduit/MProduit.iml" filepath="$PROJECT_DIR$/MProduit/MProduit/MProduit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MUser/MUser/MUser.iml" filepath="$PROJECT_DIR$/MUser/MUser/MUser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-gateway/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/api-gateway/api-gateway/api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server/eureka-server.iml" />
     </modules>
   </component>
 </project>

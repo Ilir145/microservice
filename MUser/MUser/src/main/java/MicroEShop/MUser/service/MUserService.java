@@ -7,6 +7,7 @@ import MicroEShop.MUser.repository.MUserRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
@@ -39,5 +40,10 @@ public class MUserService {
         if(user != null){
             this.repository.save(user);
         }
+    }
+
+    public MUserDto getUserByPseudoAndMdp(String pseudo,String mdp){
+        return mapper.toDto(repository.findByPseudoAndMdp(pseudo,mdp)
+                .orElseThrow(() -> new NoSuchElementException("Pas d'utilisateur trouve")));
     }
 }

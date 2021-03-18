@@ -28,4 +28,6 @@ public class CommandeDTO {
 
     String societeLivraison;
 
+    Integer idUser;
+
 }

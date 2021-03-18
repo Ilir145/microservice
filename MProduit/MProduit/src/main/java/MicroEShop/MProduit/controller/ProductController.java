@@ -1,16 +1,18 @@
 package MicroEShop.MProduit.controller;
 
+import MicroEShop.MProduit.config.RibbonConfig;
 import MicroEShop.MProduit.dto.ProductDTO;
 import MicroEShop.MProduit.entities.Product;
 import MicroEShop.MProduit.services.ProductService;
 import MicroEShop.MProduit.util.ProductNotFoundException;
+import org.springframework.cloud.netflix.ribbon.RibbonClient;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Set;
 
 @RestController
 @RequestMapping(path = "/products")
-//@CrossOrigin
+@RibbonClient(name = "mProduit",configuration = RibbonConfig.class)
 public class ProductController {
 
     private final ProductService service;

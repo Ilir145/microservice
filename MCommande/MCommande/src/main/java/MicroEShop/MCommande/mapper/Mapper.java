@@ -15,6 +15,7 @@ public class Mapper {
                 .quantiteCommande(entity.getQuantiteCommande())
                 .productId(entity.getProductId())
                 .societeLivraison(entity.getSocieteLivraison())
+                .idUser(entity.getIdUser())
                 .build() : null;
     }
 
@@ -26,6 +27,7 @@ public class Mapper {
                 .quantiteCommande(dto.getQuantiteCommande())
                 .productId(dto.getProductId())
                 .societeLivraison(dto.getSocieteLivraison())
+                .idUser(dto.getIdUser())
                 .build() : null;
     }
 }

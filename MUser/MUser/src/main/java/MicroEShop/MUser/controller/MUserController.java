@@ -3,9 +3,11 @@ package MicroEShop.MUser.controller;
 import MicroEShop.MUser.dto.MUserDto;
 import MicroEShop.MUser.entity.MUser;
 import MicroEShop.MUser.service.MUserService;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequestMapping(path = "/musers")
@@ -33,4 +35,8 @@ public class MUserController {
         this.mUserService.insert(user);
     }
 
+    @PostMapping(path = "/check")
+    public ResponseEntity<MUserDto> getUserByPseudoAndMdp(@RequestBody Map<String,String> values){
+        return ResponseEntity.ok(this.mUserService.getUserByPseudoAndMdp(values.get("pseudo"),values.get("mdp")));
+    }
 }

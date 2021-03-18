@@ -32,4 +32,6 @@ public class Commande {
 
     String societeLivraison;
 
+    Integer idUser;
+
 }

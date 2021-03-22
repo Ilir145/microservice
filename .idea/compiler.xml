@@ -11,6 +11,7 @@
         <module name="MPaiement" />
         <module name="MLivraison" />
         <module name="api-gateway" />
+        <module name="MSecurite" />
         <module name="MProduit" />
         <module name="eureka-server" />
         <module name="MUser" />
@@ -23,6 +24,7 @@
       <module name="MLivraison" target="11" />
       <module name="MPaiement" target="11" />
       <module name="MProduit" target="11" />
+      <module name="MSecurite" target="11" />
       <module name="MUser" target="11" />
     </bytecodeTargetLevel>
   </component>
@@ -32,6 +34,7 @@
       <module name="MLivraison" options="-parameters" />
       <module name="MPaiement" options="-parameters" />
       <module name="MProduit" options="-parameters" />
+      <module name="MSecurite" options="-parameters" />
       <module name="MUser" options="-parameters" />
       <module name="api-gateway" options="-parameters" />
       <module name="eureka-server" options="-parameters" />

@@ -11,10 +11,11 @@
         <option value="$PROJECT_DIR$/eureka-server/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/api-gateway/api-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/MUser/MUser/pom.xml" />
+        <option value="$PROJECT_DIR$/MSecurite/MSecurite/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" default="false" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" default="false" project-jdk-name="13" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
